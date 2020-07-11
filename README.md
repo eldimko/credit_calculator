@@ -5,6 +5,7 @@ Entry level python assignment from JetBrains Academy. My execution of the stages
 
 
 ## Stage 1: 
+**Create a simple program which will print messages about some credit.**
 
 Let's start by imitating this behavior. There are some prepared variables in source code that are ready for use: these are text messages that our credit calculator could output. At this stage, all you need to do is output them in the right order.
 
@@ -22,6 +23,7 @@ The credit has been repaid!
 ```
 
 ## Stage 2: 
+**Communicate with the user to get necessary values, do simple mathematical operations and output the result.**
 
 Prompt a user to enter their credit principal and choose one of the two parameters, i.e. the count of periods or the monthly payment.
 To perform further calculations, you'll also have to ask for the lacking value.
@@ -91,3 +93,12 @@ At this stage, you should add new behavior to the calculator:
 First, you should ask the user which parameter they want to calculate. The calculator should be able to calculate the count of periods, monthly payment and credit principal.
 Then you need to ask them to input the remaining values.
 Finally, compute and output the value that they wanted.
+
+## Stage 3:
+**Calculate real credit parameters by using the mathematical capabilities of Python.**
+
+
+
+
+## Stage 3:
+**Make the credit calculator be able to work with different types of payment and to work with command-line arguments.**
