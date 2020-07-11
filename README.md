@@ -84,9 +84,7 @@ Enter count of months:
 Your monthly payment = 112 with last month payment = 104.
 ```
 ## Stage 3: 
-Let's compute all the parameters of the credit. There are at least two kinds of credit: those with annuity payment and with differentiated payment. At this stage, you're going to calculate only the annuity payment which is fixed during the whole credit term.
-
-You are interested in four values: the count of periods to repay the credit, monthly payment, credit principal and credit interest. Each of these values can be calculated if others are known:
+**Calculate real credit parameters by using the mathematical capabilities of Python.**
 
 At this stage, you should add new behavior to the calculator:
 
@@ -94,11 +92,5 @@ First, you should ask the user which parameter they want to calculate. The calcu
 Then you need to ask them to input the remaining values.
 Finally, compute and output the value that they wanted.
 
-## Stage 3:
-**Calculate real credit parameters by using the mathematical capabilities of Python.**
-
-
-
-
-## Stage 3:
+## Stage 4:
 **Make the credit calculator be able to work with different types of payment and to work with command-line arguments.**
