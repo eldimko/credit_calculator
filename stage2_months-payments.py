@@ -4,9 +4,9 @@ def credit_calculator():
                          type "m" - for count of months, 
                          type "p" - for monthly payment """)
     if operation == 'm':
-        return month_count(credit_principal, int(input("Enter monthly payment:")))
+        month_count(credit_principal, int(input("Enter monthly payment:")))
     elif operation == 'p':
-        return monthly_payment(credit_principal, int(input("Enter count of months:")))
+        monthly_payment(credit_principal, int(input("Enter count of months:")))
 
 
 def month_count(principal, payment):
