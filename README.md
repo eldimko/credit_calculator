@@ -92,5 +92,51 @@ First, you should ask the user which parameter they want to calculate. The calcu
 Then you need to ask them to input the remaining values.
 Finally, compute and output the value that they wanted.
 
+#### Example 1
+```
+What do you want to calculate? 
+type "n" - for count of months, 
+type "a" - for annuity monthly payment,
+type "p" - for credit principal: 
+> n
+Enter credit principal: 
+> 1000000
+Enter monthly payment: 
+> 15000
+Enter credit interest:
+> 10
+You need 8 years and 2 months to repay this credit!
+```
+#### Example 2
+```
+What do you want to calculate? 
+type "n" - for count of months, 
+type "a" - for annuity monthly payment,
+type "p" - for credit principal: 
+> a
+Enter credit principal: 
+> 1000000
+Enter count of periods:
+> 60
+Enter credit interest:
+> 10
+Your annuity payment = 21248!
+```
+#### Example 3
+```
+What do you want to calculate? 
+type "n" - for count of months, 
+type "a" - for annuity monthly payment,
+type "p" - for credit principal: 
+> p
+Enter monthly payment: 
+> 8721.8
+Enter count of periods:
+> 120
+Enter credit interest:
+> 5.6
+Your credit principal = 800000!
+```
+
 ## Stage 4:
 **Make the credit calculator be able to work with different types of payment and to work with command-line arguments.**
