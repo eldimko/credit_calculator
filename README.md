@@ -140,3 +140,14 @@ Your credit principal = 800000!
 
 ## Stage 4:
 **Make the credit calculator be able to work with different types of payment and to work with command-line arguments.**
+At this stage, it is required to implement these features:
+
+1. the calculation of differentiated payment. To do this, the user may run the program specifying interest, count of periods and credit principal.
+
+
+2. a capacity to calculate the same values as in the previous stage for annuity payment (principal, count of periods and value of the payment). A user specifies all known parameters with command-line arguments, while a single parameter will be unknown. This is the value the user wants to calculate.
+
+3. handling of invalid parameters. It's a good idea to show an error message Incorrect parameters in case of invalid parameters (they are discussed in detail below).
+
+The final version of your program is supposed to work from the command line and parse the following parameters:
+`--type`, `--payment`, `--principal`, `--periods`, `--interest`
